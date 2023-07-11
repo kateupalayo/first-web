@@ -5,8 +5,19 @@
     <title>테스트여</title>
   </head>
   <body>
-<h1><a href="home.HTML">TEST</a></h1>
+<h1><a href="javascript:home()">TEST</a></h1>
   <ol>
-    <li><h2><a href="1.HTML">1.test</a><h2>
+    <li><h2><a href="javascript:one()">1.test</a><h2>
+
+
+<script>
+function home() {
+    window.location.href = 'home.html'
+}
+
+  function one() {
+    window.location.href = '1.html'
+}
+</script>
   </body>
-</html>
+</html> 
